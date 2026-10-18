@@ -15,11 +15,11 @@ pub fn main(_: std.process.Init) !void {
 
     const triangle = Triangle{
         .a = .{
-            .position = .{ .x = 400, .y = 100, .z = 0 },
+            .position = .{ .x = 650, .y = 150, .z = 0 },
             .color = cute_colors.htmlColor("#ff0000"),
         },
         .b = .{
-            .position = .{ .x = 150, .y = 450, .z = 0 },
+            .position = .{ .x = 300, .y = 150, .z = 0 },
             .color = cute_colors.htmlColor("#00ff00"),
         },
         .c = .{
